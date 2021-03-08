@@ -1,0 +1,210 @@
+﻿{
+  "name": "koffie automaat",
+  "type": "DEA",
+  "automaton": {
+    "Alphabet": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "States": [
+      {
+        "ID": 1,
+        "Name": "q0",
+        "Start": true,
+        "Final": false,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 1,
+            "Target": 2,
+            "Labels": [
+              "1"
+            ],
+            "x": 0,
+            "y": 0
+          },
+          {
+            "Source": 1,
+            "Target": 5,
+            "x": 0,
+            "y": 0,
+            "Labels": [
+              "0",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9"
+            ]
+          }
+        ],
+        "x": 150,
+        "y": 150
+      },
+      {
+        "ID": 3,
+        "Name": "q4",
+        "Start": false,
+        "Final": true,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 3,
+            "Target": 1,
+            "Labels": [
+              "0"
+            ],
+            "x": 0,
+            "y": 0
+          },
+          {
+            "Source": 3,
+            "Target": 5,
+            "x": 0,
+            "y": 0,
+            "Labels": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9"
+            ]
+          }
+        ],
+        "x": 540,
+        "y": 160
+      },
+      {
+        "ID": 4,
+        "Name": "q2",
+        "Start": false,
+        "Final": true,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 4,
+            "Target": 1,
+            "Labels": [
+              "0"
+            ],
+            "x": 0,
+            "y": 0
+          },
+          {
+            "Source": 4,
+            "Target": 5,
+            "x": 0,
+            "y": 0,
+            "Labels": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9"
+            ]
+          }
+        ],
+        "x": 540,
+        "y": 60
+      },
+      {
+        "ID": 5,
+        "Name": "q3",
+        "x": 950,
+        "y": 620,
+        "Final": false,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 5,
+            "Target": 5,
+            "x": 0,
+            "y": 40,
+            "Labels": [
+              "0",
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9"
+            ]
+          }
+        ],
+        "Start": false
+      },
+      {
+        "ID": 2,
+        "Name": "q1",
+        "Start": false,
+        "Final": false,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 2,
+            "Target": 3,
+            "Labels": [
+              "0"
+            ],
+            "x": 0,
+            "y": 0
+          },
+          {
+            "Source": 2,
+            "Target": 4,
+            "Labels": [
+              "1"
+            ],
+            "x": 0,
+            "y": 0
+          },
+          {
+            "Source": 2,
+            "Target": 5,
+            "x": 0,
+            "y": 0,
+            "Labels": [
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9"
+            ]
+          }
+        ],
+        "x": 150,
+        "y": 330
+      }
+    ],
+    "simulationInput": [],
+    "StackAlphabet": [
+      "|"
+    ],
+    "lastInputs": []
+  }
+}
