@@ -1,0 +1,16 @@
+\begin{figure}
+    \centering
+    \begin{transitiongraph}[fa]
+        \state[s]{q0}{0}{-36.364}
+        \state{q1}{76.364}{-43.636}
+        \state[f]{q2}{120}{0}
+        \state[f]{q3}{120}{-87.273}
+        \transition{q0}{q1}{1}
+        \transition{q1}{q2}{0}
+        \transition{q1}{q3}{1}
+        \transition{q2}{q0}{0}
+        \transition{q3}{q0}{0}
+    \end{transitiongraph}
+    \caption{koffie automaat}
+    \label{graph:koffie_automaat}
+\end{figure}
