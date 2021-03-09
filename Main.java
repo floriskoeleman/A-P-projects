@@ -1,25 +1,18 @@
 package com.company;
 
-import java.util.Scanner;
-
 public class Main {
 
+    public static <retrun> void main(String[] args) {
+	class Auto {
+	    String name = ("Vroom");
+        String colour = ("yellow");
+        double lenght = 2;
+        double width = 5;
+        double height = 7;
+        double speed = 5;
+        String speech = ("Java");
 
-    public static boolean checkmail(String input){
-        return input.matches("([\\w.+]*)\\w+@hva.nl");
-    }
 
-    public static void main(String[] args) {
-        //noinspection InfiniteLoopStatement
-        while (true) {
-            Scanner input = new Scanner(System.in);
-            String test = input.next();
-
-            if (checkmail(test)) {
-                System.out.println("jeej");
-            } else {
-                System.out.println("mhhh..nee");
-            }
         }
-    }
+	}
 }
